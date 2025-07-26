@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "barid"
+version = "0.2.0"
+description = "A deeply abstract, fully asynchronous Python client for the Barid temporary email API with complex architecture and type-heavy design."
+authors = ["Hexa"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "barid"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+httpx = {version = "*", extras = ["http2"]}
+pydantic = "*"
+email-validator = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+mypy = "*"
+black = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
