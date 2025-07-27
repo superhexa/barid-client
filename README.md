@@ -3,8 +3,6 @@
 **Barid** is a fully asynchronous, highly modular, and type-driven Python client for interacting with the [barid.site](https://web.barid.site) temporary email API.  
 It is designed for developers who require a professional, extensible, and heavily abstracted interface to manage disposable email inboxes programmatically.
 
-Barid is engineered with extreme complexity using deep Python patterns like strict type hints, decorators, layered abstraction, and dynamic data models—offering full control over every operation in a highly structured SDK.
-
 ---
 
 ## 🧪 Example Usage
